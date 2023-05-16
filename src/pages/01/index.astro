@@ -1,0 +1,25 @@
+---
+import Player from "./components/Player";
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro + TailwindCSS</title>
+	</head>
+
+	<body>
+		<main class="w-screen h-screen bg-[#0F0D13] flex flex-col items-center justify-center">
+
+			<Player client:only/>
+
+
+		</main>
+		
+
+	</body>
+</html>
