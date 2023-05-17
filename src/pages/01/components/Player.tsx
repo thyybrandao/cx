@@ -25,7 +25,7 @@ function Player() {
     <div className="w-[360px] h-[267px] bg-[#2A2141] rounded-xl p-7 flex flex-col justify-around">
       <audio className="hidden" ref={audioRef} controls src={audioUrl}></audio>
       <div className="w-[300px flex flex-row justify-between gap-2">
-        <div className="w-[104px] h-[84px] bg-[url(../../../../public/assets/album.jpg)] rounded-md"></div>
+        <div className="w-[114px] h-[84px] bg-[url(https://www.joshwoodward.com/images/JoshWoodward-120.jpg)] bg-center bg-cover rounded-md"></div>
 
         <div className="w-full flex flex-col justify-center items-center text-left">
           <div>

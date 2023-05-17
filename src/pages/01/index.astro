@@ -1,4 +1,5 @@
 ---
+import Title from "./components/Title";
 import Player from "./components/Player";
 
 ---
@@ -13,7 +14,11 @@ import Player from "./components/Player";
 	</head>
 
 	<body>
-		<main class="w-screen h-screen bg-[#0F0D13] flex flex-col items-center justify-center">
+		<main class="w-screen h-screen bg-[#0F0D13] flex flex-col items-center justify-start pt-4">
+
+			<Title 
+			title="Player de música" 
+			description='Projeto com finalidade de treinar técnicas de frontend, uso do setState,useRef e componentização do React dentro do Astro'/>
 
 			<Player client:only/>
 
