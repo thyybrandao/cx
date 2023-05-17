@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowCircleLeft } from "react-icons/fa";
+
 
 interface Props {
   title: string;
@@ -10,7 +10,7 @@ function Title({ title, description }: Props) {
   return (
     <header>
       <div className="w-screen flex flex-row justify-between items-center px-4">
-        <a href="/"><FaArrowCircleLeft size={24} color="white" /></a>
+        <a className="text-white text-sm" href="/">Voltar</a>
         <p className="text-2xl text-white font-bold mx-auto">{title}</p>
       </div>
       <div className="w-screen flex flex-row justify-center items-center py-4 text-justify">
